@@ -17,6 +17,5 @@ MongoClient.connect(db.url, (err, db) => {
   app.listen(port, () => {
     console.log('We are live on ' + port);
   }); 
-  //db.close();
-  //console.log("Connection closed");              
+                
 })
