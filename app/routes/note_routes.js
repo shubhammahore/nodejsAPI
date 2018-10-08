@@ -10,6 +10,7 @@ module.exports = function(app, db) {
             console.log(" 1 Document inserted");
           res.send(result.ops[0]);
           db.close();
+          
         }
       });
     });
